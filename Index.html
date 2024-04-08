@@ -4,22 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>batatabit</title>
+    <title>Batatabit</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./Style.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 930px)">
+
 </head>
 
 <body>
     <header>
-        <img src="./Assets/logo.png" alt="logo">
         <div class="header-tittle-container">
+            <img src="./Assets/logo.png" alt="logo">
             <h1> La próxima revolución en el intercambio de criptomonedas. </h1>
             <p> Batatabit te ayuda a naverga entre los diferentes precios y tendencias</p>
-            <a href="" class="header-button"> Conoce nuestros planes <span></span></a>
+            <a href="#plans" class="header-button"> Conoce nuestros planes <span></span></a>
         </div>
     </header>
     <main>
@@ -60,7 +62,33 @@
                 <div class="currency-table--date">
                     <p><b>Actualizado:</b> 19 julio 23:45</p>
                 </div>
+            </div>
 
+            <div class="main-currency-table">
+                <p class="currency-table-title--c">Comisiones</p>
+                <div class="currency-table--container">
+                    <table>
+                        <tr>
+                            <td class="table__top-left">Bitcoin</td>
+                            <td class="table__top-right table__right">$1.96</td>
+                        </tr>
+                        <tr>
+                            <td>Etherum</td>
+                            <td class="table__right">$0.07</td>
+                        </tr>
+                        <tr>
+                            <td>Ripple</td>
+                            <td class="table__right">$2.15</td>
+                        </tr>
+                        <tr>
+                            <td class="table__bottom-left">Stellar</td>
+                            <td class="table__bottom-right table__right">$4.96 </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="currency-table--date-c">
+                    <p><b>Actualizado:</b> 19 julio 23:48</p>
+                </div>
             </div>
         </section>
 
@@ -100,12 +128,61 @@
         <section class="bitcoin-img-container">
             <h2>Conócelo hoy.</h2>
         </section>
-        <sectiona>
-
+        <section id="plans" class="main-plans-container">
+            <div class="plans--tittle">
+                <h1>Escoge el plan que mejor se ajuste a ti.</h1>
+                <p> Cualquier plan te da acceso completo a nuestra plataforma.</p>
+            </div>
+            <section class="plans-container--slider">
+                <article class="plans-container--card">
+                    <p class="recomended">Recomendado</p>
+                    <div class="plan-info-container">
+                        <h3 class="plan-card--title">Pago Anual</h3>
+                        <p class="plan-card--price"> <span>$</span>99</p>
+                        <p class="plan-card--saving">*Ahorras $129 comparado al plan mensual con beneficios.</p>
+                        <button class="plan-card--ca ">Escoge este <span></span></button>
+                    </div>
+                </article>
+                <article class="plans-container--card">
+                    <p class="Vip">VIP</p>
+                    <div class="plan-info-container">
+                        <h3 class="plan-card--title">Pago Anual</h3>
+                        <p class="plan-card--price"> <span>$</span>159</p>
+                        <p class="plan-card--saving">*Acceso illimitado con beneficios <br>pro-batatabit.</p>
+                        <button class="plan-card--ca-vip ">Escoge este <span></span></button>
+                    </div>
+                </article>
+                <article class="plans-container--card">
+                    <p class="basic">Básico</p>
+                    <div class="plan-info-container">
+                        <h3 class="plan-card--title">Pago mensual</h3>
+                        <p class="plan-card--price"> <span>$</span>15</p>
+                        <p class="plan-card--saving">*Algunas funciones no están disponbles en este plan.</p>
+                        <button class="plan-card--ca-basic">Escoge este <span></span></button>
+                    </div>
+                </article>
             </section>
+
     </main>
 
-    <footer></footer>
+    <footer>
+        <section class="left">
+            <ul>
+                <li>
+                    <a href="">Linkedin</a>
+                </li>
+                <li>
+                    <a href="">Crunchbase</a>
+                </li>
+                <li>
+                    <a href="">Hackernews</a>
+                </li>
+            </ul>
+        </section>
+        <section class="right">
+            <img src="./Assets/Group 18 (2).png" alt="logo batatabit 2020" class="img-batata">
+        </section>
+    </footer>
 </body>
 
 </html>
